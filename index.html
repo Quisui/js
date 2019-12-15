@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        section {
+            display: inline-block;
+            width: 220px;
+            height: 220px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>JSON - data types</h1>
+
+    <p id="demo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, mollitia?</p>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script>
+        //JSON : STRING; NUMBER; OBJECT; ARRAY; BOOLEAN; Null
+        //JSON; NO PERMITE FUNCIONES, DATE
+
+        var x = { name: "john" };
+
+        x = { "age": 25 };
+
+
+        x = {
+            "employe": { "name": "john", "surname": "quiui", "age": 25 }
+        };
+        x = { "employe": ["jeb", "johb"] }
+
+
+
+        x = {
+            "employe": { "name": "quisi", "age": 25 },
+            "infomration": { "Married": "yes" },
+            "status": "success"
+        }
+        x = {
+
+            'code': 200,
+            'status': 'success',
+            'message': 'se agregaron los mensajes',
+
+
+        };
+        console.log(x);
+        /* //object
+        var x = { "name": "John" };
+
+        x = { "age": 25 };
+
+
+
+
+        x = {
+
+            "employe": { "name": "john", "surname": "Quisui", "age": 23 }
+        }
+
+        //array
+
+        x = {
+            "employe": ["john", "Tom", "abner"]
+        }
+        //boolean
+
+        x = {"sale": true};
+        console.log(x);
+
+*/
+    </script>
+</body>
+
+</html>
